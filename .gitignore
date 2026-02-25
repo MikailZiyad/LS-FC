@@ -1,0 +1,49 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+env/
+venv/
+.venv/
+env_attendance/
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and caches
+logs/
+*.log
+
+# Build/dist
+build/
+dist/
+*.egg-info/
+
+# Data and local DBs
+face_attendance/data/*.db
+face_attendance/data/*.sqlite
+face_attendance/data/*.sqlite3
+
+# DeepFace / model weights and caches
+face_attendance/data/models/.deepface/weights/
+face_attendance/data/models/.deepface/cache/
+
+# Checkpoints / large binaries
+*.ckpt
+*.onnx
+*.tflite
+*.pt
+

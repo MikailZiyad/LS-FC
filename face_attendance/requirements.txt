@@ -1,0 +1,31 @@
+# Core dependencies
+opencv-python>=4.8.0
+numpy>=1.21.0
+Pillow>=9.0.0
+customtkinter>=5.2.0
+
+# DeepFace master from local (update path sesuai lokasi)
+# DeepFace akan diinstall dari local deepface-master
+-e c:/Users/Asus/Documents/Kodingan/yolo/deepface-master/deepface-master
+
+# Optional: Face detection backends
+ultralytics>=8.0.0  # YOLO support
+mediapipe>=0.10.0   # MediaPipe face detection
+dlib>=19.24.0      # Dlib face detection
+mtcnn>=0.1.1       # MTCNN face detection
+
+# Database support
+psycopg2-binary>=2.9.0  # PostgreSQL
+pymongo>=4.0.0         # MongoDB
+neo4j>=5.0.0            # Neo4j
+pinecone-client>=2.0.0 # Pinecone vector DB
+weaviate-client>=3.0.0 # Weaviate vector DB
+
+# Additional utilities
+tqdm>=4.64.0       # Progress bars
+pandas>=1.5.0      # Data manipulation
+lightphe>=0.0.5    # Encryption support
+lightdsa>=0.0.2    # Digital signatures
+flask>=2.3.0       # API support
+flask-cors>=4.0.0  # CORS support
+python-dotenv>=1.0.0 # Environment variables
